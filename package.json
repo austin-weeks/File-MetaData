@@ -1,10 +1,11 @@
 {
-  "name": "file_metadata",
-  "version": "0.0.1",
+  "name": "file-metadata-analyzer",
+  "version": "1.0.0",
   "description": "API project for freeCodeCamp",
   "main": "index.js",
+  "author": "Austin Weeks",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --watch index.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
