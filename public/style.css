@@ -1,24 +1,26 @@
 /****** Main Styling ******/
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
-  color: #222;
-  background-color: #ECF0F1;
+  background-color: #222;
+  color: #ECF0F1;
   text-align: center;
 }
 
 .container {
   padding: 0;
   margin-top: 40px;
+  max-width: 700px;
+  margin: auto;
 }
 
 .footer {
-  margin-top: 60px;
+  margin-top: 1.5em;
 }
 
 a {
-  color: #2574A9;
+  color: #61b4ea;
 }
 
 input {
@@ -34,9 +36,19 @@ input#button {
 .view {
   position:relative;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 1.5em;
   border: 1px  solid  #aaa;
   padding: 20px;
   width: 60%;
   min-width: 400px;
+}
+.code-container {
+  font-family: 'JetBrains Mono';
+  padding: 0.1em 1em;
+  border-radius: 5px;
+  color: #222;
+  background-color: #ECF0F1;
+  text-align: left;
+  max-width: 17em;
+  margin: auto;
 }

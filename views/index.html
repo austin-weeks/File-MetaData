@@ -4,17 +4,26 @@
    <head>
       <title>File Metadata</title>
       <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-      <link href="/public/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet">
+    <link href="/public/style.css" rel="stylesheet" type="text/css">
    </head>
 
    <body>
       <div class="container">
-        <h1>API Project: File Metadata Microservice</h1>
-
-        <h2>Usage:</h2>
-        <p>
-          Please Upload a File ...
+        <h1>File Metadata Microservice</h1>
+          <p style="max-width: 350px; margin: 1em auto;">The service returns the following information about the uploaded file:<br></p>
+          <div class="code-container">
+<pre>
+  {
+    "name": "example.txt",
+    "type": "text",
+    "size": 2234
+  }</pre>
+          </div>
         </p>
         <div class="view">
           <h3 id="output"></h3>
@@ -26,8 +35,7 @@
       </div>
       <div class="footer">
         <p>
-          by 
-          <a href="http://www.freecodecamp.com">freeCodeCamp</a>
+          By <a href="http://austin-weeks.github.io">Austin Weeks</a>
         </p>
       </div>
    </body>
